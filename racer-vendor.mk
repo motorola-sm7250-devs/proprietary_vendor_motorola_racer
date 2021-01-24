@@ -42,7 +42,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/racer/proprietary/vendor/etc/charger_fstab.qti:$(TARGET_COPY_OUT_VENDOR)/etc/charger_fstab.qti \
     vendor/motorola/racer/proprietary/vendor/etc/hdr_tm_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/hdr_tm_config.xml \
     vendor/motorola/racer/proprietary/vendor/etc/init/hw/init.mmi.charge_only.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.mmi.charge_only.rc \
-    vendor/motorola/racer/proprietary/vendor/etc/init/motorola.hardware.audio.adspd@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/motorola.hardware.audio.adspd@1.0-service.rc \
     vendor/motorola/racer/proprietary/vendor/etc/init/vendor.qti.hardware.charger_monitor@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.charger_monitor@1.0-service.rc \
     vendor/motorola/racer/proprietary/vendor/etc/qdcm_calib_data_mipi_mot_cmd_boe_1080p_667.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_mipi_mot_cmd_boe_1080p_667.xml \
     vendor/motorola/racer/proprietary/vendor/etc/qdcm_calib_data_mipi_mot_cmd_csot_1080p_667.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_mipi_mot_cmd_csot_1080p_667.xml \
@@ -178,11 +177,6 @@ PRODUCT_PACKAGES += \
     libcamxswprocessalgo \
     libcamxtintlessalgo \
     libofflinelog \
-    libtinyalsa-moto \
-    motorola.hardware.audio.adspd@1.0-impl \
-    motorola.hardware.audio.adspd@1.0 \
-    sound_trigger.primary.default \
-    motorola.hardware.audio.adspd@1.0_vendor \
     com.mot.eeprom.mot_dw9763_ov8856_eeprom \
     com.mot.eeprom.mot_dw9767_ov16a10_eeprom \
     com.mot.eeprom.mot_gt9767_s5kgw1_eeprom \
@@ -248,7 +242,6 @@ PRODUCT_PACKAGES += \
     camera.qcom \
     com.qti.chi.override \
     fingerprint.goodix \
-    libadspd \
     libarcsoft_portrait_distortion_correction \
     libbitmlengine \
     libcamerapostproc \
@@ -297,6 +290,5 @@ PRODUCT_PACKAGES += \
     capsense_reset \
     charge_only_mode \
     hvdcp_opti \
-    motorola.hardware.audio.adspd@1.0-service \
     motpsd \
     vl53l1_daemon
