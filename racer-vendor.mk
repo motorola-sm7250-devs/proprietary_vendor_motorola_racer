@@ -293,7 +293,6 @@ PRODUCT_PACKAGES += \
     com.motorola.androidx.camera.extensions \
     com.android.hotwordenrollment.common.util \
     capsense_reset \
-    charge_only_mode \
     hvdcp_opti \
     motpsd \
     vl53l1_daemon
