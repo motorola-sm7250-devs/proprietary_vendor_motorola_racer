@@ -172,16 +172,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/racer/proprietary/vendor/lib64/camera/fdconfigvideolite.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigvideolite.bin
 
 PRODUCT_PACKAGES += \
-    libcamera_nn_stub \
-    libcamxexternalformatutils \
-    libcamxfacialfeatures \
-    libcamxfdalgo \
-    libcamximageformatutils \
-    libcamxncs \
-    libcamxstatscore \
-    libcamxswprocessalgo \
-    libcamxtintlessalgo \
-    libofflinelog \
     com.mot.eeprom.mot_dw9763_ov8856_eeprom \
     com.mot.eeprom.mot_dw9767_ov16a10_eeprom \
     com.mot.eeprom.mot_gt9767_s5kgw1_eeprom \
@@ -249,9 +239,18 @@ PRODUCT_PACKAGES += \
     fingerprint.goodix \
     libarcsoft_portrait_distortion_correction \
     libbitmlengine \
+    libcamera_nn_stub \
     libcamerapostproc \
+    libcamxexternalformatutils \
+    libcamxfacialfeatures \
+    libcamxfdalgo \
     libcamxfdengine \
     libcamxifestriping \
+    libcamximageformatutils \
+    libcamxncs \
+    libcamxstatscore \
+    libcamxswprocessalgo \
+    libcamxtintlessalgo \
     libchilog \
     libcom.qti.chinodeutils \
     libfcell \
@@ -263,6 +262,7 @@ PRODUCT_PACKAGES += \
     libmot_flash_aw3643 \
     libmot_lux_standardization \
     libmpbase \
+    libofflinelog \
     libsns_device_mode_stub \
     libsns_fastRPC_util \
     libsns_low_lat_stream_stub \
