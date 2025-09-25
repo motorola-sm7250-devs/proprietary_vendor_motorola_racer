@@ -228,7 +228,6 @@ PRODUCT_PACKAGES += \
     sensors.moto \
     sensors.ssc \
     sensors.tof.vl53l1 \
-    vendor.goodix.hardware.biometrics.fingerprint@2.1_vendor \
     vendor.qti.hardware.camera.postproc@1.0-service-impl \
     libmcf_native_window_helper.motocamera \
     MotoSignatureApp \

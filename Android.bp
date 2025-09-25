@@ -4,6 +4,7 @@
 
 soong_namespace {
     imports: [
+        "device/motorola/racer",
         "hardware/motorola",
         "vendor/motorola/sm7250-common",
         "vendor/qcom/opensource/display",
@@ -2686,7 +2687,7 @@ cc_prebuilt_library_shared {
                 "libhardware",
                 "libion",
                 "libQSEEComAPI",
-                "vendor.goodix.hardware.biometrics.fingerprint@2.1_vendor",
+                "vendor.goodix.hardware.biometrics.fingerprint@2.1",
                 "com.motorola.hardware.biometric.fingerprint@1.0",
                 "libc",
                 "libm",
@@ -3329,35 +3330,6 @@ cc_prebuilt_library_shared {
                 "libcutils",
                 "libutils",
                 "libbase",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor.goodix.hardware.biometrics.fingerprint@2.1_vendor",
-    owner: "motorola",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/vendor.goodix.hardware.biometrics.fingerprint@2.1_vendor.so",
-            ],
-            shared_libs: [
-                "libhidlbase",
-                "liblog",
-                "libutils",
-                "libcutils",
-                "android.hidl.base@1.0",
                 "libc++",
                 "libc",
                 "libm",
