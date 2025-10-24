@@ -13,8 +13,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/racer/proprietary/product/etc/permissions/deviceowner-configuration-com.motorola.camera2.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/deviceowner-configuration-com.motorola.camera2.xml \
     vendor/motorola/racer/proprietary/product/etc/permissions/privapp-permissions-com.motorola.camera2.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-com.motorola.camera2.xml \
     vendor/motorola/racer/proprietary/product/etc/sysconfig/hiddenapi-whitelist-com.motorola.camera2.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/hiddenapi-whitelist-com.motorola.camera2.xml \
-    vendor/motorola/racer/proprietary/recovery/root/vendor/firmware/aw8695_haptic.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/aw8695_haptic.bin \
-    vendor/motorola/racer/proprietary/recovery/root/vendor/firmware/aw8695_rtp.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/aw8695_rtp.bin \
     vendor/motorola/racer/proprietary/recovery/root/vendor/firmware/samsung-boe-se77c-20033021-17110105-racer.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/samsung-boe-se77c-20033021-17110105-racer.bin \
     vendor/motorola/racer/proprietary/recovery/root/vendor/firmware/samsung-boe-se77c-20033021-17110305-racer-pvt.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/samsung-boe-se77c-20033021-17110305-racer-pvt.bin \
     vendor/motorola/racer/proprietary/recovery/root/vendor/firmware/samsung-csot-se77c-20042009-17120108-racer.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/samsung-csot-se77c-20042009-17120108-racer.bin \
